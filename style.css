@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: hsl(217, 54%, 11%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 1%;
+    width: 25%;
+    height: 80%;
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.image{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    height: 50%;
+    width: 100%;
+}
+.content h3,p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.line3{
+    display: flex;
+    justify-content: space-between;
+}
+.line3-p1-color{
+    color: hsl(178, 100%, 50%);
+}
+p{
+    color:  hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.line4{
+    display: flex;
+    justify-content: space-around;
+}
+.line4 img{
+    width: 10%;
+    align-self: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.line4 p samp{
+    color: white;
+}
+hr{
+    color: hsl(215, 51%, 70%);
+}
+ .attribution a {
+    color: yellow; 
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+a:hover{
+    color: greenyellow;
+}
+
+
+/* for mobail display */
+@media (max-width:375px){
+    body{
+        width: 99vw;
+        height: 100vh;
+        background-color: hsl(216, 50%, 16%);;
+    }
+    .container{
+        width: 95%;
+        height: 95%;
+        margin: 0%;
+        border-radius: 0px;
+        /* padding: 10px; */
+    }
+}
